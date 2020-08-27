@@ -13,7 +13,7 @@ const timer = new Timer(durationInput, startButton, pauseButton, {
   },
   onTick(){
     circle.setAttribute('stroke-offset', currentOffset);
-    currentOffset -= 50;
+    currentOffset -= 1;
   },
   onComplete(){
     console.log("timer is complete");
